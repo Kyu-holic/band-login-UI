@@ -1,0 +1,11 @@
+파비콘(favicon) = favorite + icon
+상단 타이틀에 이미지를 넣는 것이며 link태그를 통해서 만듦
+
+section에 height를 100vh로 주었을 때, header의 높이만큼 늘어나기 때문에 스크롤이 생김.
+그럴 때 calc를 사용하여 조절
+
+background에 image를 넣을 경우 background color 값을 잃기 때문에 제일 앞에 따로 넣어줘야한다.
+예를들어     background: #fff url(./images/logo-mobile.png) no-repeat center left 10px; 같이
+
+
+:before, :after는 항상 자식요소이면서 inline요소이다. 중요!!!!!
